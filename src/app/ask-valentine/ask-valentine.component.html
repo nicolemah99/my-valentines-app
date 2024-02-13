@@ -1,0 +1,8 @@
+<div class="valentine-question">
+    <p>{{ name }}, will you be my Valentine?</p>
+    <button (click)="onYes()">Yes</button>
+    <button (click)="onNo()">No</button>
+    <div *ngIf="message">
+        <p>{{ message }}</p>
+    </div>
+</div>

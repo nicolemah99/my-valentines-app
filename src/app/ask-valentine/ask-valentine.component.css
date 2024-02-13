@@ -1,0 +1,15 @@
+.valentine-question {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.valentine-question button {
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.valentine-question p {
+    font-size: 18px;
+}
