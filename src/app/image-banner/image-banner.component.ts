@@ -17,7 +17,6 @@ images = [
     { url: './assets/images/4.png', caption: 'Caption 1', date: '1 week' },
     { url: './assets/images/5.png', caption: 'Caption 2', date: '1 month' },
     { url: './assets/images/6.png', caption: 'Caption 2', date: '3 months' },
-    { url: './assets/images/7.png', caption: 'Caption 2', date: '3 months' },
   ];
   currentImageIndex = 0;
 
