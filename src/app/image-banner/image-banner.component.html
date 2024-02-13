@@ -1,0 +1,7 @@
+<div class="image-row">
+    <app-image-display *ngFor="let image of images"
+        [imageUrl]="image.url" 
+        [caption]="image.caption"
+        [date]="image.date">
+    </app-image-display>
+</div>

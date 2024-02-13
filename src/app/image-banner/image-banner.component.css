@@ -1,0 +1,15 @@
+/* image-banner.component.css */
+.image-row {
+    display: flex;
+    overflow-x: auto;
+    /* Allows horizontal scrolling */
+    white-space: nowrap;
+    /* Ensures items are in a single row */
+}
+
+.image-container {
+    flex: none;
+    /* Prevents flex items from growing or shrinking */
+    margin-right: 20px;
+    /* Space between images */
+}

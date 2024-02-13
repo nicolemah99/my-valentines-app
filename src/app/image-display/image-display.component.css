@@ -1,0 +1,21 @@
+/* image-display.component.css */
+.image-container {
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    /* Make the image fit the container */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove any inline spacing */
+}
+
+p {
+    text-align: center;
+    margin: 5px 0;
+}
