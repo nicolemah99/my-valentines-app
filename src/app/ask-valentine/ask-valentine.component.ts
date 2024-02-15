@@ -17,7 +17,7 @@ export class AskValentineComponent {
   }
 
   onNo() {
-    this.message = "I'm sad😢";
+    this.message = "Sorry curty, you don't really have a choice 🤷‍♀️";
   }
 
 }

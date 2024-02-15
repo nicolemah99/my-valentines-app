@@ -1,8 +1,11 @@
-<div class="valentine-question">
-    <p>{{ name }}, will you be my Valentine?</p>
-    <button (click)="onYes()">Yes</button>
-    <button (click)="onNo()">No</button>
-    <div *ngIf="message">
-        <p>{{ message }}</p>
+<div class="valentine-question h-100">
+    <div class="valentine-container">
+        <h2>{{ name }}, will you be my Valentine?</h2>
+        <button class="yes-btn" (click)="onYes()">Yes</button>
+        <button class="no-btn" (click)="onNo()">No</button>
+        <div *ngIf="message">
+            <p>{{ message }}</p>
+        </div>
     </div>
 </div>
+

@@ -1,21 +1,40 @@
-/* image-display.component.css */
-.image-container {
+/* Image Display Card Styling */
+.image-display {
+    background-color: #fee0ff;
+    border: 5px solid #ff99f8;
+    border-radius: 10px;
+    height: 100vh;
+    /* Fill the column height */
     box-sizing: border-box;
-    padding: 10px;
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Space between image and text */
 }
 
-img {
-    width: 100%;
-    /* Make the image fit the container */
-    height: auto;
-    /* Maintain aspect ratio */
-    display: block;
-    /* Remove any inline spacing */
+.image-display img {
+    border-radius: 5px;
+    object-fit:cover;
+    max-height: 75%;
+    /* Cover the area without losing aspect ratio */
 }
 
-p {
+.date {
+    color: #ff33cc;
+    text-shadow: 1px 1px #ff99ff;
+    padding: 20px;
     text-align: center;
-    margin: 5px 0;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+    margin: 10px;
+    size: 50px;
+}
+
+.caption {
+    color: #b82b95;
+    text-shadow: 1px 1px #ff99ff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+    margin: 10px;
+    size: 50px;
 }
